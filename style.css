@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
+    font-family: Merriweather;
+}
+.banner-style{
+    width: 1320px;
+    height: 600px;
+    background-image: url(./images/Banner\ Image.png );
+    margin: 0 auto;
+    display: flex;
+    background-repeat: no-repeat;
+  }
+.banner-style .Happy{
+    width: 1320px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+
+}
+.Happy p {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    padding: 30px;
+}
+.Happy h1{
+     color: rgb(255, 255, 255);
+    font-size: 72px;   
+}
+
